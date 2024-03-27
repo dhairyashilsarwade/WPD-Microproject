@@ -1,0 +1,179 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+.bar
+{ 
+    padding: 15px;
+    color: aliceblue;
+    font-family: 'Borel';
+    background-color: black;
+}
+body
+{
+    color: rgba(131, 30, 30, 0.381);
+    background-color: white;
+}
+img
+{
+    border: 7px solid black;
+    border-radius: 15px;
+    margin: 15px;
+}
+.navlinks a{
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+}
+.navlinks a:hover{
+    background-color: black;
+    color: white;
+}
+.navlinks{
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 5px;
+    width: 100%;
+    z-index: 1;
+}
+.bg{
+    background-attachment: fixed;
+    background-image: url(https://ideogram.ai/api/images/direct/kPi4lIq4Tk6xuwCTR1WKBQ.png);
+    background-color: #598689;
+    background-size: cover;
+    background-position-y: -300px;
+    background-position-x:  0px;
+    background-repeat: no-repeat;
+    height: 700px;
+    width: 100%;
+}
+.slogan{
+    position: relative;
+    font-size: 60px;
+    color: white;
+    top: 40px;
+    left: 20px;
+    letter-spacing: 2px;
+    font-family: Muli, sans-serif;
+}
+.content{
+    min-height: 1100px;
+    background-color: white ;
+}
+.p1{
+    background-image: url(./content/p1.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 720px 480px;
+    margin-top: 20px;      
+   height: 500px;
+   width: 100%;
+}
+.p1 h2{
+    text-align: left;
+    color: black;
+    font-size: 50px;
+    position: relative;
+    left: 800px;
+    top: 90px;
+    margin-bottom: 10px;
+}
+.p1 p{
+    color: black;
+    font-size: 20px;
+    position: relative;
+    left: 800px;
+    top: 90px;
+    margin-bottom: 10px;
+}
+.p1 button{
+    position: relative;
+    left: 800px;
+    top: 90px;
+    border: none;
+    padding: 15px;
+    height: 50px;
+    width: 200px;
+    background-color: gray;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    transition: all 1.5s ease;
+}
+button:hover
+{
+    border: none;
+    border-radius: 30px;
+    color:white;
+    background-color: black;
+}
+.p2
+{
+      background-image: url(./content/pen.jpeg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-size: 720px 480px;
+      margin-top: 250px;
+      height: 500px;
+      width: 100%;
+      background-position: right;
+}
+.p2 h2
+{
+    text-align:left;
+    color: black;
+    font-size: 50px;
+    position: relative;
+    left: 50px;
+    top: 90px;
+    margin-bottom: 10px;
+}
+.p2 p
+{
+
+    text-align: left;
+    left: 50px;
+}
+.p2 button
+{
+
+    left: 50px;
+}
+
+footer{
+    height: 500px;
+    width: 100%;
+    color: white;
+    background-color: black;
+}
+.foot-contain{
+ display: flex;
+ flex-wrap: wrap;
+ align-items: center;
+ justify-content: space-around;
+}
+.SM{
+ margin: 10px;
+}
+.social-media{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.RU{
+   margin: 10px;
+}
+.chat{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+i{
+  text-decoration: none;
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 45px;
+}
